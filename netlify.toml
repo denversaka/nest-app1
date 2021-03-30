@@ -1,5 +1,5 @@
 [build]
-    command ="yarn build:netlify"
+    command ="npm build:netlify"
     functions="deploy"
 
 [[redirects]]
