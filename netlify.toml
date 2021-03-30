@@ -1,8 +1,4 @@
 [build]
-    command ="npm build:netlify"
-    functions="deploy"
-
-[[redirects]]
-    from = "/*"
-    status = 200
-    to="/.netlify/functions/lambda"
+  command = "npm install && npm run build"
+  functions = "dist/functions"
+  publish = "dist"
