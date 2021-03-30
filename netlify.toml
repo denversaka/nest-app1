@@ -1,0 +1,8 @@
+[build]
+    command ="yarn build:netlify"
+    functions="deploy"
+
+[[redirects]]
+    from = "/*"
+    status = 200
+    to="/.netlify/functions/lambda"

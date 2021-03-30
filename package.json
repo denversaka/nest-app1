@@ -27,7 +27,8 @@
     "netlify-lambda": "^2.0.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6"
+    "rxjs": "^6.6.6",
+    "serverless-http": "^2.7.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.6.0",
