@@ -32,6 +32,7 @@
     "@nestjs/websockets": "^7.6.15",
     "amqp-connection-manager": "^3.2.2",
     "netlify-lambda": "^2.0.3",
+    "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
